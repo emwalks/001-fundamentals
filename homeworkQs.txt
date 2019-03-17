@@ -1,0 +1,26 @@
+1. Which part is the file extension of the package.json file?
+    .json
+
+2. What does JSON stand for?
+    JavaScript Object Notation
+
+3. What is the purpose of JSON?
+    It is a standard way of defining structure of data
+    Made up of key: value pairs
+    e.g. the data's key on one side and the data's value on the other
+
+4. What does the package.json file do?
+    Manage dependancies of software 
+    (managing the installation of those open source pieces of code that we are going to use.)
+    package-lock.json manages versions
+
+5. What are some of the different 'types' that can be represented in JSON?
+    The keys are always string and define the name of the property 
+    and the values are usually: 
+    strings (text), integers (numbers), 
+    booleans (true or false) 
+    or can be nested objects. 
+    An example of a nested object is the property called scripts 
+    its value is a nested object, 
+    denoted by the curly braces {} and that nested object has its own set of keys. 
+    One of which is test that has a string value of jest.
